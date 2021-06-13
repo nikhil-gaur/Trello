@@ -1,0 +1,22 @@
+.card {
+    border: 2px solid black;
+    margin: 10px;
+    
+}
+
+.card__head {
+    display: flex;
+    position: relative;
+}
+
+.card__head > h1 {
+   padding: 10px;
+   margin: 0;
+}
+
+.closeIcon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}

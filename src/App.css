@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+.app__lists {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .App-logo {

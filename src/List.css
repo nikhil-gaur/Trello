@@ -1,0 +1,39 @@
+.list {
+    height: 80vh;
+    min-width: 40vh;
+    border: 2px solid black;
+    overflow-y: auto;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.list__head {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: black;
+    color: whitesmoke;
+    z-index: 1;
+}
+
+.list__head > h1 {
+    padding: 10px;
+    margin: 0;
+}
+
+
+.crossIcon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.card__adder {
+    position: sticky;
+    bottom: 0;
+    background-color: lightseagreen;
+    border: 2px solid blacks;
+}
